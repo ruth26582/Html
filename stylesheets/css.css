@@ -1,0 +1,317 @@
+
+
+a{
+    color: #009ced;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0081c3;
+    text-decoration: underline;
+}
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.top-menu{
+    background: #ff9204;
+    height: 36px;
+}
+
+.top-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-menu a {
+    display: block;
+    width: 90px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.top-menu a:hover{
+    background: #ff6204;
+}
+
+
+.top-menu i {
+    margin-right: 5px;
+}
+
+h1.logo{
+    margin: 0;
+}
+h1.logo img{
+    display: block;
+    width: 200px;
+    height: 62px;
+}
+
+
+.top-block{
+    height: 80px;
+    background: rgb(238, 189, 189);
+}
+
+.top-block .container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 9px 0;
+}
+
+.search input{
+    width: 285px;
+    height: 28px;
+    border: #ddd 2px solid;
+    border-radius: 17px;
+    padding-left: 35px; 
+}
+
+.search i {
+    position: relative;
+    left: 32px;
+}
+
+.search input:focus {
+    outline: none;
+    border-color: #009ced;
+    box-shadow: #009ced 0 0 2px;
+}
+
+.main-menu{
+    height: 38px;
+    border-top:#ddd 1px solid; 
+    border-bottom:#ddd 1px solid; 
+   
+}
+
+.main-menu ul{
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.main-menu a {
+    display: block;
+    
+    height: 38px;
+    line-height: 38px;
+    color: #3d4143;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-menu a:hover{
+    background: #ff9204;
+    color: #fff;
+}
+
+.main-menu li{
+    flex: 0 0 20%;
+    
+}
+
+.index-image {
+    height: 400px;
+    background: url(../images/index-image.jpg) 
+    center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.index-image h2 {
+    font-size: 50px;
+    color: rgba(70, 32, 32, 0.952);
+    position: absolute;
+    margin: 0 0 0 200px;
+    left: 50%;
+    bottom: 60px;
+}
+
+.index-image h2 span {
+    display: block;
+    position: relative;
+    left: 2em;
+}
+
+.new-items{
+    padding: 40px 0;
+    background-color: antiquewhite;
+}
+
+.new-items ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-items li{
+    flex: 0 0 340px;
+}
+
+.new-items img{
+    width: 330px;
+    height: 250px;
+}
+
+
+.featured-item h2{
+    color: #ff9204;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 0 30px;
+    padding-top: 20px;
+}
+
+
+.item-content{
+    display: flex;
+}
+
+.item-img{
+    flex: 0 0 300px;
+   
+   
+}
+
+.item-img img{
+    width: 250px;
+    height: 240px;
+    padding-bottom: 20px;
+}
+
+.item-text{
+    flex-grow: 1;
+}
+
+.featured-item{
+    background-color: rgb(247, 215, 215);;
+}
+
+.featured-item h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.featured-item .user {
+    float: right;
+    margin-top: 30px;
+}
+
+.featured-item .user img {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    vertical-align: middle;
+}
+
+.news-and-principle{
+    padding: 10px 0;
+    background-color: antiquewhite;
+    
+}
+
+.news-and-principle .container{
+    display: flex;
+}
+
+.news{
+    flex: 0 0 750px;
+    min-width: 0;
+   
+}
+.news h1{
+    color: #ff6204;
+}
+.news h2 {  
+   
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.news ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .news li {
+    padding: 8px;
+    border-bottom: #ddd 1px dotted;
+  }
+
+.news a{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news li:nth-child(even) {
+    background: rgb(226, 197, 197);
+}
+
+.principle{
+    flex: 0 0 280px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    color: rgb(141, 33, 33);
+}
+
+.principle h2{
+    height: 50px;
+    margin: 0;
+    padding: 20px;
+    background-color: #eef090;
+    position: relative;
+   font-size: 25px;
+}
+
+.principle img{
+    width: 100px;
+    height: 50px;
+}
+
+.principle-content {
+    background-color: #faa536;
+    line-height: 2em;
+}
+
+.page-footer{
+    padding: 40px 0;
+    background-color: rgb(247, 215, 215);
+    color: rgb(77, 50, 50);
+    text-align: center;
+}
+
+.page-footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.page-footer li{
+    flex: 0 0 340px;
+}
+
+.page-footer .business-hours{
+    flex: 0 0 100%;
+    margin: 20px 0;
+}
